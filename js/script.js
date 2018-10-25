@@ -10,8 +10,20 @@
 // DOCUMENT READY FUNCTION BELOW
 
 $("#shoot").click(function(){
-    var computerchoice = "rock"
-    $("#userchoice")
+  $("#userChoice").text($("#input").val())
+    $("#computerChoice").text(computerchoice)
     
-}
+});
+
+var computerchoice = "";
+
+var userchoice = "";
+
+var winner = "";
+
+var randomNumber = 0;
+
+
+
+
 
